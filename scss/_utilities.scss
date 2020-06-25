@@ -1,0 +1,133 @@
+.container {
+  margin: auto;
+  max-width: 120rem;
+  height: 100%;
+  padding: 0 3rem;
+}
+
+// margin
+.my-small {
+  margin: 1rem 0;
+}
+.my-medium {
+  margin: 2rem 0;
+}
+.my-large {
+  margin: 3rem 0;
+}
+.my-xlarge {
+  margin: 4rem 0;
+}
+.mb-small {
+  margin-bottom: 1rem;
+}
+.mb-medium {
+  margin-bottom: 2rem;
+}
+.mb-large {
+  margin-bottom: 3rem;
+}
+.mb-xlarge {
+  margin-bottom: 4rem;
+}
+// background-color
+.primary-color {
+  color: var(--primary-color);
+}
+.secondary-color {
+  color: var(--secondary-color);
+}
+// carousel
+.carousel-item {
+  height: 92vh;
+  min-height: 100%;
+  background: no-repeat center center scroll;
+  background-size: cover;
+  position: relative;
+  @include respond(phone) {
+    height: 70vh;
+  }
+  &::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.5;
+  }
+  img {
+    height: 100%;
+  }
+}
+.carousel-caption {
+  bottom: 270px;
+
+  @include respond(tab-land) {
+    bottom: 300px;
+  }
+
+  // @media (max-width: 1199px) {
+  //   bottom: 400px;
+  // }
+  @media (max-width: 1024px) {
+    bottom: 450px;
+  }
+
+  @include respond(tab-port) {
+    bottom: 400px;
+  }
+
+  // @include respond(tab-port) {
+  //   bottom: 500px;
+  // }
+
+  // @media only screen and (max-width: 768px) {
+  //   bottom: 400px;
+  // }
+
+  @include respond(phone) {
+    top: 200px;
+  }
+
+  @media only screen and (max-width: 414px) {
+    bottom: 400px;
+  }
+  @media only screen and (max-width: 411px) {
+    top: 110px;
+  }
+
+  // @media only screen and (max-width: 360px) {
+  //   bottom: 600px;
+  // }
+
+  @media only screen and (max-height: 1024px) {
+    bottom: 300px;
+  }
+  @media (max-height: 568px) {
+    bottom: 30px;
+  }
+  @media (max-height: 820px) {
+    bottom: 70px;
+  }
+}
+.lead {
+  font-size: 2rem;
+  width: 75%;
+  margin: auto;
+  letter-spacing: 3px;
+  opacity: 0.8;
+}
+
+.no-grid {
+  grid-gap: 0;
+}
+.text-center {
+  align-items: center;
+}
+// @media only screen and (max-height: 900px) {
+//   .carousel-caption {
+//     bottom: 300px;
+//   }
+// }

@@ -1,0 +1,66 @@
+.contact {
+  &-display {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url(../img/contact.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 92vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    p {
+      color: #fff;
+      text-align: center;
+      padding: 0 2rem;
+    }
+  }
+  &-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 4rem;
+    @include respond(tab-port) {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-gap: 4rem;
+    }
+  }
+  & {
+    background-color: var(--secondary-color);
+    padding: 5rem 0;
+    color: #fff;
+  }
+  &-text,
+  &-msg {
+    padding: 1rem;
+    width: 100%;
+    display: block;
+    font-size: inherit;
+    font-family: inherit;
+    border: 1px solid transparent;
+    transition: all 0.3s;
+  }
+  &-text:focus,
+  &-msg:focus {
+    outline: none;
+    border: 1px solid var(--primary-color);
+  }
+  &-msg {
+    height: 15rem;
+  }
+  h2 {
+    font-size: 3rem;
+  }
+  @include respond(tab-port) {
+    &-heading {
+      text-align: center;
+    }
+    &-map {
+      display: block;
+      height: 100%;
+      width: 100%;
+    }
+  }
+}

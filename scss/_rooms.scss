@@ -1,0 +1,75 @@
+.rooms {
+  &-display {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url(../img/runnyrem-LfqmND-hym8-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 92vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    p {
+      color: #fff;
+      padding: 0 2rem;
+    }
+  }
+}
+.room-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 6rem;
+  margin: 7rem 0;
+}
+.room-inner_grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  @include respond(tab-port) {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+.room {
+  // width: 80%;
+  // height: 100%;
+  margin: auto;
+  background-color: #f1f1f1;
+  font-size: 1.8rem;
+  h3 {
+    color: #333;
+    font-size: 2.5rem;
+  }
+
+  & > div {
+    padding: 6rem 4rem;
+  }
+  &:nth-child(even) {
+    img {
+      order: 2;
+      @include respond(tab-port) {
+        order: 0;
+      }
+    }
+  }
+  img {
+    width: 100%;
+    height: 50rem;
+    display: block;
+  }
+  ul {
+    color: #333;
+    li {
+      padding: 1rem 0;
+      font-weight: bold;
+      color: #333;
+      p {
+        color: #333;
+      }
+      span {
+        font-weight: 300;
+      }
+    }
+  }
+}

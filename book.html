@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Prata&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="css/main.css" />
+
+    <title>Xquisite Hotel | Book A Room</title>
+  </head>
+  <body>
+    <div class="book">
+      <div data-aos="zoom-in-up" class="container">
+        <div class="book-card">
+          <div class="book-heading">
+            <h2 class="primary-color tertiary-heading">
+              We are at your service
+            </h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Temporibus.
+            </p>
+          </div>
+          <form class="book-form">
+            <h4 class="my-medium">Check Availability...</h4>
+            <div class="form-group">
+              <label for="Arrival">Check In</label>
+              <input
+                class="book-input"
+                type="date"
+                name="Arrival"
+                id="Arrival"
+                placeholder="Check In"
+              />
+            </div>
+            <div class="form-group">
+              <label for="Departure">Check Out</label>
+              <input
+                class="book-input"
+                type="date"
+                name="Departure"
+                id="Departure"
+                placeholder="Check Out"
+              />
+            </div>
+            <div class="form-group">
+              <label for="adult">Adult</label>
+              <input
+                class="book-input"
+                type="number"
+                name="adult"
+                id="adult"
+                placeholder="Adult"
+              />
+            </div>
+            <div class="form-group mb-xlarge">
+              <label for="children">Children</label>
+              <input
+                class="book-input"
+                type="number"
+                name="children"
+                id="children"
+                placeholder="children"
+              />
+            </div>
+            <input
+              type="button"
+              class="btn btn-primary btn-block"
+              value="Check Availability"
+            />
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 200,
+        duration: 1000,
+      });
+    </script>
+    <script src="app.js"></script>
+  </body>
+</html>

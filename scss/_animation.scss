@@ -1,0 +1,12 @@
+@include respond(tab-port) {
+  @keyframes navLinkFade {
+    from {
+      opacity: 0;
+      transform: translateX(5rem);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+}

@@ -1,0 +1,64 @@
+body {
+  font-family: "Lato", sans-serif;
+  line-height: 1.5;
+  // color: var(--white-color);
+  font-size: var(--default-font);
+}
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Prata", serif;
+  line-height: 1.2;
+  color: var(--white-color);
+}
+
+.primary-heading {
+  display: block;
+  font-size: 5rem;
+  letter-spacing: 5px;
+  text-align: center;
+  @include respond(tab-port) {
+    font-size: 3.5rem;
+    letter-spacing: 3px;
+    line-height: 1.6;
+  }
+  @include respond(phone) {
+    font-size: 2.5rem;
+    letter-spacing: 3px;
+    line-height: 1.6;
+  }
+}
+.secondary-heading {
+  display: block;
+  font-size: 3.5rem;
+  letter-spacing: 5px;
+  text-align: center;
+  @include respond(tab-port) {
+    font-size: 2.5rem;
+    letter-spacing: 3px;
+    line-height: 1.6;
+  }
+  @include respond(phone) {
+    font-size: 2rem;
+    letter-spacing: 3px;
+  }
+}
+.tertiary-heading {
+  display: block;
+  font-size: 1.8rem;
+  letter-spacing: 5px;
+  text-align: center;
+  @include respond(phone) {
+    font-size: 1.8rem;
+    letter-spacing: 3px;
+  }
+}
+p {
+  margin-bottom: 1rem;
+  font-size: var(--default-font);
+  opacity: 0.8;
+  @media only screen and (max-width: 800px) {
+    margin-bottom: 2rem;
+  }
+}
