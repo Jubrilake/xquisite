@@ -75,7 +75,7 @@
     bottom: 500px;
   }
   @media only screen and (max-height: 1024px) {
-    bottom: 300px;
+    bottom: 600px;
   }
   @include respond(tab-port) {
     bottom: 400px;
