@@ -104,9 +104,9 @@ img {
   @media only screen and (max-width: 75em) {
     .carousel-caption {
       bottom: 300px; } }
-  @media (max-width: 1024px) {
+  @media (min-width: 1024px) {
     .carousel-caption {
-      bottom: 450px; } }
+      bottom: 650px; } }
   @media only screen and (max-width: 56.25em) {
     .carousel-caption {
       bottom: 400px; } }
@@ -295,7 +295,7 @@ nav {
     position: absolute;
     right: 0px;
     height: 92vh;
-    top: 11vh;
+    top: 10vh;
     display: flex;
     flex-direction: column;
     align-items: center;

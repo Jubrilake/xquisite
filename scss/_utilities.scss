@@ -71,8 +71,8 @@
   // @media (max-width: 1199px) {
   //   bottom: 400px;
   // }
-  @media (max-width: 1024px) {
-    bottom: 450px;
+  @media (min-width: 1024px) {
+    bottom: 650px;
   }
 
   @include respond(tab-port) {
