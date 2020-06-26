@@ -326,6 +326,10 @@ nav {
   nav .nav-links {
     top: 12vh; } }
 
+@media only screen and (max-height: 1280px) {
+  nav .nav-links {
+    top: 10vh; } }
+
 .header {
   height: 92vh;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/display2.jpg");

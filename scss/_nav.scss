@@ -118,3 +118,10 @@ nav {
     }
   }
 }
+@media only screen and (max-height: 1280px) {
+  nav {
+    .nav-links {
+      top: 10vh;
+    }
+  }
+}
