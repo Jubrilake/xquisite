@@ -124,7 +124,7 @@ img {
       top: 110px; } }
   @media only screen and (max-height: 1024px) {
     .carousel-caption {
-      bottom: 300px; } }
+      bottom: 400px; } }
   @media (max-height: 568px) {
     .carousel-caption {
       bottom: 30px; } }
