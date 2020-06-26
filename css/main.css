@@ -109,7 +109,7 @@ img {
       bottom: 500px; } }
   @media only screen and (max-width: 1024px) {
     .carousel-caption {
-      bottom: 300px; } }
+      bottom: 90px; } }
   @media only screen and (max-width: 56.25em) {
     .carousel-caption {
       bottom: 400px; } }
