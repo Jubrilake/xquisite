@@ -110,6 +110,9 @@ img {
   @media only screen and (max-width: 56.25em) {
     .carousel-caption {
       bottom: 400px; } }
+  @media only screen and (max-height: 800px) {
+    .carousel-caption {
+      bottom: 450px; } }
   @media only screen and (max-width: 37.5em) {
     .carousel-caption {
       top: 200px; } }
@@ -318,6 +321,10 @@ nav {
     opacity: 0; }
   nav .toggle .line3 {
     transform: rotate(45deg) translate(-5px, -6px); } }
+
+@media only screen and (max-height: 1280px) {
+  nav .nav-links {
+    top: 8vh; } }
 
 .header {
   height: 92vh;
