@@ -106,7 +106,7 @@ img {
       bottom: 300px; } }
   @media (min-width: 1024px) {
     .carousel-caption {
-      bottom: 500px; } }
+      bottom: 700px; } }
   @media only screen and (max-width: 56.25em) {
     .carousel-caption {
       bottom: 400px; } }
@@ -122,9 +122,6 @@ img {
   @media only screen and (max-width: 411px) {
     .carousel-caption {
       top: 110px; } }
-  @media only screen and (max-height: 1024px) {
-    .carousel-caption {
-      bottom: 400px; } }
   @media (max-height: 568px) {
     .carousel-caption {
       bottom: 30px; } }
