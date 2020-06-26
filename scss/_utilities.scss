@@ -65,12 +65,9 @@
   bottom: 270px;
 
   @include respond(tab-land) {
-    bottom: 300px;
+    bottom: 400px;
   }
 
-  // @media (max-width: 1199px) {
-  //   bottom: 400px;
-  // }
   @media (min-width: 1024px) {
     bottom: 500px;
   }
@@ -84,9 +81,6 @@
   @media only screen and (max-height: 800px) {
     bottom: 450px;
   }
-  // @media only screen and (max-width: 768px) {
-  //   bottom: 400px;
-  // }
 
   @include respond(phone) {
     top: 200px;
@@ -98,10 +92,6 @@
   @media only screen and (max-width: 411px) {
     top: 110px;
   }
-
-  // @media only screen and (max-width: 360px) {
-  //   bottom: 600px;
-  // }
 
   @media (max-height: 568px) {
     bottom: 30px;
