@@ -121,7 +121,7 @@ nav {
 @include respond(phone) {
   nav {
     .nav-links {
-      top: 10vh;
+      top: 12vh;
     }
   }
 }
