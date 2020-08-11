@@ -60,7 +60,13 @@
           <p>Kindly fill out your details below..</p>
         </div>
         <div class="contact-grid">
-          <form data-aos="fade-right" class="form">
+          <form
+            name="contact"
+            method="POST"
+            data-netlify="true"
+            data-aos="fade-right"
+            class="form"
+          >
             <div class="form-group">
               <label for="name">Full Name</label>
               <input
@@ -74,6 +80,7 @@
               <label for="name">Email</label>
               <input
                 type="email"
+                name="email"
                 class="contact-text"
                 id="email"
                 placeholder=" Email"
@@ -83,6 +90,7 @@
               <label for="name">Phone Number</label>
               <input
                 type="number"
+                name="phone"
                 class="contact-text"
                 id="name"
                 placeholder="Phone Number"
