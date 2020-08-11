@@ -294,7 +294,7 @@ nav {
   nav .nav-links {
     position: absolute;
     right: 0px;
-    height: 92vh;
+    height: 100vh;
     top: 10vh;
     display: flex;
     flex-direction: column;
@@ -482,6 +482,10 @@ nav {
     @media only screen and (max-width: 56.25em) {
       .footer-grid > *:last-child {
         grid-column: none; } }
+  .footer .brand {
+    color: #f4f4f4;
+    font-size: 1rem;
+    letter-spacing: 2px; }
   .footer-mail {
     padding: 1rem;
     border: none;
