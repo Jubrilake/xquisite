@@ -103,19 +103,13 @@ img {
   bottom: 270px; }
   @media only screen and (max-width: 75em) {
     .carousel-caption {
-      bottom: 400px; } }
-  @media (min-width: 1024px) {
+      bottom: 300px; } }
+  @media (max-width: 1024px) {
     .carousel-caption {
-      bottom: 500px; } }
-  @media only screen and (max-width: 1024px) {
-    .carousel-caption {
-      bottom: 90px; } }
+      bottom: 450px; } }
   @media only screen and (max-width: 56.25em) {
     .carousel-caption {
       bottom: 400px; } }
-  @media only screen and (max-height: 800px) {
-    .carousel-caption {
-      bottom: 450px; } }
   @media only screen and (max-width: 37.5em) {
     .carousel-caption {
       top: 200px; } }
@@ -125,6 +119,9 @@ img {
   @media only screen and (max-width: 411px) {
     .carousel-caption {
       top: 110px; } }
+  @media only screen and (max-height: 1024px) {
+    .carousel-caption {
+      bottom: 300px; } }
   @media (max-height: 568px) {
     .carousel-caption {
       bottom: 30px; } }

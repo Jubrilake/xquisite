@@ -65,22 +65,27 @@
   bottom: 270px;
 
   @include respond(tab-land) {
-    bottom: 400px;
+    bottom: 300px;
   }
 
-  @media (min-width: 1024px) {
-    bottom: 500px;
+  // @media (max-width: 1199px) {
+  //   bottom: 400px;
+  // }
+  @media (max-width: 1024px) {
+    bottom: 450px;
   }
-  @media only screen and (max-width: 1024px) {
-    bottom: 90px;
-  }
+
   @include respond(tab-port) {
     bottom: 400px;
   }
 
-  @media only screen and (max-height: 800px) {
-    bottom: 450px;
-  }
+  // @include respond(tab-port) {
+  //   bottom: 500px;
+  // }
+
+  // @media only screen and (max-width: 768px) {
+  //   bottom: 400px;
+  // }
 
   @include respond(phone) {
     top: 200px;
@@ -93,6 +98,13 @@
     top: 110px;
   }
 
+  // @media only screen and (max-width: 360px) {
+  //   bottom: 600px;
+  // }
+
+  @media only screen and (max-height: 1024px) {
+    bottom: 300px;
+  }
   @media (max-height: 568px) {
     bottom: 30px;
   }
