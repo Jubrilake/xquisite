@@ -21,16 +21,15 @@ const navSlide = () => {
 
 navSlide();
 
-// / MAP LOCATION
-// function initMap() {
-//   const loc = { lat: 6.524379, lng: 3.379206 };
-//   const map = new google.maps.Map(document.querySelector(".contact-map"), {
-//     center: loc,
-//     zoom: 14,
-//   });
+function initMap() {
+  const loc = { lat: 6.524379, lng: 3.379206 };
+  const map = new google.maps.Map(document.querySelector(".contact-map"), {
+    center: loc,
+    zoom: 14,
+  });
 
-//   const marker = new google.maps.Marker({ position: loc, map: map });
-// }
+  const marker = new google.maps.Marker({ position: loc, map: map });
+}
 //  sticky menu background
 window.addEventListener("scroll", function () {
   if (this.window.scrollY > 150) {
